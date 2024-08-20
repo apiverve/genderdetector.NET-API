@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new genderdetectorQueryOptions {
+var queryOptions = new GenderDetectorQueryOptions {
   name = "John Mcdonald",
   country = "US"
 };
@@ -99,7 +99,8 @@ if(response.error != null) {
     "country": "US",
     "detected": true,
     "gender": "male"
-  }
+  },
+  "code": 200
 }
 ```
 
